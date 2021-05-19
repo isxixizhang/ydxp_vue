@@ -2,7 +2,7 @@ const path = require('path');
 const IS_PROD = ['production', 'prod'].includes(process.env.NODE_ENV);
 const resolve = (dir) => path.join(__dirname, dir);
 module.exports = {
-    publicPath: '/app-ydxp',
+    publicPath: '/',
     indexPath: 'index.html',
     outputDir: process.env.outputDir || 'dist',
     assetsDir: 'static',
